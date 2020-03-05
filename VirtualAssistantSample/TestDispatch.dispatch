@@ -1,0 +1,15 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [],
+  "serviceIds": [],
+  "authoringKey": "ff89aecc093841ab9450d1a25b62750a",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "TestDispatch"
+}

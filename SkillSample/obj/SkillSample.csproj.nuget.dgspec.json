@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj": {}
+  },
+  "projects": {
+    "/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj",
+        "projectName": "SkillSample",
+        "projectPath": "/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj",
+        "packagesPath": "/Users/igorazevedo/.nuget/packages/",
+        "outputPath": "/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/igorazevedo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AdaptiveCards": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Microsoft.Azure.CognitiveServices.ContentModerator": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.CognitiveServices.Language": {
+              "target": "Package",
+              "version": "[1.0.1-preview, )"
+            },
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.AI.QnA": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.ApplicationInsights": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Azure": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Integration.ApplicationInsights.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Configuration": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Schema": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Microsoft.Bot.Solutions": {
+              "target": "Package",
+              "version": "[0.8.0-preview2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

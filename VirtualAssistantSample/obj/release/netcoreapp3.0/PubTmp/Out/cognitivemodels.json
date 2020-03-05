@@ -1,0 +1,47 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en-us": {
+      "dispatchModel": {
+        "subscriptionkey": "bd9dbf3f248e4c408aa945ceb3f65879",
+        "region": "westus",
+        "version": "Dispatch",
+        "name": "VirtualAssistantTesten-us_Dispatch",
+        "authoringkey": "ff89aecc093841ab9450d1a25b62750a",
+        "authoringRegion": "westus",
+        "type": "dispatch",
+        "appid": "5eacc4cb-d142-4039-9e91-a5d93d3cee95"
+      },
+      "languageModels": [
+        {
+          "subscriptionkey": "bd9dbf3f248e4c408aa945ceb3f65879",
+          "region": "westus",
+          "name": "VirtualAssistantTesten-us_General",
+          "authoringkey": "ff89aecc093841ab9450d1a25b62750a",
+          "authoringRegion": "westus",
+          "version": "0.1",
+          "appid": "bdb709c0-493d-43f8-b24e-47ef76da6fe3",
+          "id": "General"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "kbId": "c371f98e-ca7e-49e4-bd68-73e10010bf54",
+          "subscriptionKey": "51a7c8335aa44d269e9ff7ea19990194",
+          "id": "Chitchat",
+          "hostname": "https://virtualassistanttest-qnahost-qxufvpq.azurewebsites.net",
+          "endpointKey": "321a44a5-b65f-429e-93f7-323e17323fc4",
+          "name": "Chitchat"
+        },
+        {
+          "kbId": "b0e1d001-6735-456e-94a7-e24236190956",
+          "subscriptionKey": "51a7c8335aa44d269e9ff7ea19990194",
+          "id": "Faq",
+          "hostname": "https://virtualassistanttest-qnahost-qxufvpq.azurewebsites.net",
+          "endpointKey": "321a44a5-b65f-429e-93f7-323e17323fc4",
+          "name": "Faq"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{7796D6D9-6137-4CCA-A947-8E557040649A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cognitivemodels.json">
+    <Files>
+      <File FileName="appsettings.json" Line="4" Column="35" />
+      <File FileName="Dialogs/MainDialog.cs" Line="1" Column="1" />
+      <File FileName="Dialogs/OnboardingDialog.cs" Line="1" Column="1" />
+      <File FileName="Services/BotServices.cs" Line="88" Column="35" />
+      <File FileName="skills.json" Line="1" Column="1" />
+      <File FileName="cognitivemodels.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VirtualAssistantSample" expanded="True">
+            <Node name="VirtualAssistantSample" expanded="True">
+              <Node name="Deployment" expanded="True">
+                <Node name="Resources" expanded="True">
+                  <Node name="LU" expanded="True">
+                    <Node name="en-us" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="cognitivemodels.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.VirtualAssistantSample PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

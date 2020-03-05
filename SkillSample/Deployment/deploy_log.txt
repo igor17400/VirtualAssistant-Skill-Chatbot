@@ -1,0 +1,395 @@
+AZ CLI passes minimum version. Current version is 2.1.0
+{
+  "error": null,
+  "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Resources/deployments/deployment_dry_run",
+  "name": "deployment_dry_run",
+  "properties": {
+    "correlationId": "b0f06d30-1d9e-42f8-a9d5-d40fe05be1ac",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Web/serverfarms/SkillSampleTest-s3wpno5",
+            "resourceGroup": "SkillSampleTest",
+            "resourceName": "SkillSampleTest-s3wpno5",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Web/sites/SkillSampleTest-s3wpno5",
+        "resourceGroup": "SkillSampleTest",
+        "resourceName": "SkillSampleTest-s3wpno5",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Web/sites/SkillSampleTest-s3wpno5",
+            "resourceGroup": "SkillSampleTest",
+            "resourceName": "SkillSampleTest-s3wpno5",
+            "resourceType": "Microsoft.Web/sites"
+          },
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Insights/components/SkillSampleTest-s3wpno5",
+            "resourceGroup": "SkillSampleTest",
+            "resourceName": "SkillSampleTest-s3wpno5",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.BotService/botServices/SkillSampleTest-s3wpno5",
+        "resourceGroup": "SkillSampleTest",
+        "resourceName": "SkillSampleTest-s3wpno5",
+        "resourceType": "Microsoft.BotService/botServices"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.CognitiveServices/accounts/SkillSampleTest-luisruntime-s3wpno5",
+            "resourceGroup": "SkillSampleTest",
+            "resourceName": "SkillSampleTest-luisruntime-s3wpno5",
+            "resourceType": "Microsoft.CognitiveServices/accounts"
+          }
+        ],
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.CognitiveServices/accounts/SkillSampleTest-luisauthoring-s3wpno5",
+        "resourceGroup": "SkillSampleTest",
+        "resourceName": "SkillSampleTest-luisauthoring-s3wpno5",
+        "resourceType": "Microsoft.CognitiveServices/accounts"
+      }
+    ],
+    "duration": "PT0S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputs": null,
+    "parameters": {
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "appInsightsName": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "appServicePlanName": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "appServicePlanSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard"
+        }
+      },
+      "botServiceName": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "botServiceSku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "botWebAppName": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "cosmosDbName": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisAuthoringName": {
+        "type": "String",
+        "value": "SkillSampleTest-luisauthoring-s3wpno5"
+      },
+      "luisAuthoringSku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "luisRuntimeLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "luisRuntimeName": {
+        "type": "String",
+        "value": "SkillSampleTest-luisruntime-s3wpno5"
+      },
+      "luisRuntimeSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "microsoftAppId": {
+        "type": "String",
+        "value": "56a7db47-b12d-4126-a1e9-1282daa3ecf7"
+      },
+      "microsoftAppPassword": {
+        "type": "String",
+        "value": "yesttec"
+      },
+      "name": {
+        "type": "String",
+        "value": "SkillSampleTest"
+      },
+      "resourceTagName": {
+        "type": "String",
+        "value": "bot"
+      },
+      "resourceTagValue": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "SkillSampleTest-s3wpno5"
+      },
+      "suffix": {
+        "type": "String",
+        "value": "s3wpno5"
+      },
+      "useCosmosDb": {
+        "type": "Bool",
+        "value": true
+      },
+      "useLuisAuthoring": {
+        "type": "Bool",
+        "value": true
+      },
+      "useStorage": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DocumentDB",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "serverFarms"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.BotService",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "global"
+            ],
+            "properties": null,
+            "resourceType": "botServices"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.CognitiveServices",
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "accounts"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "10509634368632747640",
+    "templateLink": null,
+    "timestamp": "2020-03-04T20:12:53.109152+00:00",
+    "validatedResources": [
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Resources/deployments/99ea37e6-a3e6-4102-a249-71c880607386",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.DocumentDB/databaseAccounts/skillsampletest-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Storage/storageAccounts/skillsampletests3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Web/serverFarms/SkillSampleTest-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Insights/components/SkillSampleTest-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.Web/sites/SkillSampleTest-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.BotService/botServices/SkillSampleTest-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.CognitiveServices/accounts/SkillSampleTest-luisruntime-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      },
+      {
+        "id": "/subscriptions/1d5d75a1-6586-48a3-8b56-10ac0b437638/resourceGroups/SkillSampleTest/providers/Microsoft.CognitiveServices/accounts/SkillSampleTest-luisauthoring-s3wpno5",
+        "resourceGroup": "SkillSampleTest"
+      }
+    ]
+  },
+  "resourceGroup": "SkillSampleTest",
+  "type": "Microsoft.Resources/deployments"
+}
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "45271369-ad77-46c7-af8d-30d69417f961"
+    }
+  },
+  "blobStorage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=skillsampletests3wpno5;AccountKey=VY9dDT2X2pu859cPUzvMTmbwIvUqjktCcqcS08hdIfS7CKe30twXhWjw4+lqbTGyMnBiigSqPtTMEYboFtbjbg==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  },
+  "botWebAppName": {
+    "type": "String",
+    "value": "SkillSampleTest-s3wpno5"
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authKey": "cWmVVD8tI8e8mFI3HodC5buWdQA1SzcfpEIML2mEk59YctA8jtlHbdRq3QRt4lpFrjwV0hJDUZMiFQ2f6ofbSA==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://skillsampletest-s3wpno5.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "accountName": "SkillSampleTest-luisruntime-s3wpno5",
+      "authoringKey": "dc61d2cf2b9147d88c55eeb74310d702",
+      "authoringRegion": "westus",
+      "key": "010c0f248f5541bf80e0d2e8bfa8d63c",
+      "region": "westus"
+    }
+  },
+  "resourceGroupName": {
+    "type": "String",
+    "value": "SkillSampleTest"
+  }
+}

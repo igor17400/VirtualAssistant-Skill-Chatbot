@@ -1,0 +1,29 @@
+{
+  "cognitiveModels": {
+    "en-us": {
+      "languageModels": [
+        {
+          "id": "General",
+          "name": "SkillSampleTesten-us_General",
+          "region": "westus",
+          "authoringkey": "dc61d2cf2b9147d88c55eeb74310d702",
+          "authoringRegion": "westus",
+          "appid": "44a72c55-a873-47fd-9766-c1134e6f0348",
+          "version": "0.1",
+          "subscriptionkey": "010c0f248f5541bf80e0d2e8bfa8d63c"
+        },
+        {
+          "id": "SkillSample",
+          "name": "SkillSampleTesten-us_SkillSample",
+          "region": "westus",
+          "authoringkey": "dc61d2cf2b9147d88c55eeb74310d702",
+          "authoringRegion": "westus",
+          "appid": "2a7395c2-b0aa-4c36-82c2-ac697f7b800f",
+          "version": "0.1",
+          "subscriptionkey": "010c0f248f5541bf80e0d2e8bfa8d63c"
+        }
+      ]
+    }
+  },
+  "defaultLocale": "en-us"
+}

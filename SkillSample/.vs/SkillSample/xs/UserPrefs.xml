@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{108CF703-30C7-434E-A9A2-7B756553E2BE}|Default">
+  <MonoDevelop.Ide.ItemProperties.SkillSample PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Deployment/Resources/LU/en-us/General.json">
+    <Files>
+      <File FileName="appsettings.json" Line="4" Column="20" />
+      <File FileName="wwwroot/manifest/manifest-1.1.json" Line="83" Column="20" />
+      <File FileName="cognitivemodels.json" Line="28" Column="1" />
+      <File FileName="Deployment/Resources/LU/en-us/SkillSample.lu" Line="10" Column="23" />
+      <File FileName="Deployment/Resources/LU/en-us/SkillSample.json" Line="1" Column="1" />
+      <File FileName="Deployment/Resources/LU/en-us/General.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SkillSample" expanded="True">
+            <Node name="SkillSample" expanded="True">
+              <Node name="Deployment" expanded="True">
+                <Node name="Resources" expanded="True">
+                  <Node name="LU" expanded="True">
+                    <Node name="en-us" expanded="True">
+                      <Node name="General.json" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="manifest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

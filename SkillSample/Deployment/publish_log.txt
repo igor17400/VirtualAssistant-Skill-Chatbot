@@ -1,0 +1,33 @@
+Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Services/BotServices.cs(32,21): warning CS0618: 'LuisPredictionOptions.TelemetryClient' is obsolete: 'Member is deprecated, please use LuisRecognizerOptionsV2 to set this value).' [/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj]
+Services/BotServices.cs(33,21): warning CS0618: 'LuisPredictionOptions.LogPersonalInformation' is obsolete: 'Member is deprecated, please use LuisRecognizerOptionsV2 to set this value).' [/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj]
+Services/BotServices.cs(39,43): warning CS0618: 'LuisRecognizer.LuisRecognizer(LuisApplication, LuisPredictionOptions, bool, HttpClientHandler)' is obsolete: 'Constructor is deprecated, please use LuisRecognizer(LuisRecognizerOptions recognizer).' [/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj]
+Services/BotServices.cs(47,56): warning CS0618: 'LuisRecognizer.LuisRecognizer(LuisApplication, LuisPredictionOptions, bool, HttpClientHandler)' is obsolete: 'Constructor is deprecated, please use LuisRecognizer(LuisRecognizerOptions recognizer).' [/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj]
+Services/BotServices.cs(62,25): warning CS0618: 'CognitiveModelSet.QnAServices' is obsolete: 'Please update your Virtual Assistant to use the new QnAMakerDialog with Multi Turn and Active Learning support instead. For more information, refer to https://aka.ms/bfvaqnamakerupdate.' [/Users/igorazevedo/Documents/Estagio/SkillAtendente/Teste/SkillSample/SkillSample.csproj]
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "complete": true,
+  "deployer": "Push-Deployer",
+  "end_time": "2020-03-04T20:29:35.5694443Z",
+  "id": "7ebd89a9541d415baefe589c6a4254d6",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2020-03-04T20:29:35.5694443Z",
+  "log_url": "https://skillsampletest-s3wpno5.scm.azurewebsites.net/api/deployments/latest/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "provisioningState": null,
+  "received_time": "2020-03-04T20:29:29.5096082Z",
+  "site_name": "SkillSampleTest-s3wpno5",
+  "start_time": "2020-03-04T20:29:29.8064937Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://skillsampletest-s3wpno5.scm.azurewebsites.net/api/deployments/latest"
+}
+WARNING: Getting scm site credentials for zip deployment
+WARNING: Starting zip deployment. This operation can take a while to complete ...
+WARNING: Deployment endpoint responded with status code 202
